@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oliwa Tattoo - Studio Tatuażu - Projekt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Fonty: Cinzel (Ozdobny) + Montserrat (Tekst) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <!-- NAV (Przezroczysty pasek) -->
+    <nav class="navbar">
+        <div class="logo">OLIWA TATTOO</div>
+        <ul class="nav-links">
+            <li><a href="#galeria">GALERIA</a></li>
+            <li><a href="#o-mnie">ARTYSTKA</a></li>
+            <li><a href="#kontakt">KONTAKT</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO (Pełny ekran) -->
+    <header class="hero">
+        <div class="hero-content">
+            <img src="img/logo-oliwa.png" alt="Logo Oliwa Tattoo" class="hero-logo">
+            <h1>AUTORSKIE TATUAŻE</h1>
+            <p> Delikatne prace, rękawy, cover-upy.<br>Projekty tworzone z pasją.</p>
+            <a href="#kontakt" class="btn-main">UMÓW SESJĘ</a>
+        </div>
+    </header>
+
+    <!-- GALERIA (Siatka bez odstępów - Masonry Style) -->
+    <section id="galeria" class="gallery">
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="img/tatuaz.jpg" alt="Tatuaż 1"></div>
+            <div class="gallery-item"><img src="img/tatuaz2.jpg" alt="Tatuaż 2"></div>
+            <div class="gallery-item"><img src="img/tatuaz3.jpg" alt="Tatuaż 3"></div>
+            <div class="gallery-item"><img src="img/tatuaz5.jpg" alt="Tatuaż 5"></div>
+            
+        </div>
+    </section>
+
+    <!-- O MNIE (Ciemna sekcja) -->
+    <section id="o-mnie" class="about">
+        <div class="container">
+            <h2>MOJA HISTORIA</h2>
+            <p>Jestem tatuatorką, która łączy różne style, tworząc autorskie projekty dopasowane do Ciebie. Specjalizuję się w czerni – od delikatnych, subtelnych wzorów, po duże kompozycje i rękawy.</p>
+            <div class="icons-row">
+                <div><i data-lucide="pen-tool"></i> Autorskie Projekty</div>
+                <div><i data-lucide="droplet"></i>Specjalizacja: Czerń </div>
+                <div><i data-lucide="layers"></i> Cover-Up </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- KONTAKT (Prosty i mocny) -->
+    <footer id="kontakt">
+        <h2>MASZ POMYSŁ NA DZIARĘ?</h2>
+        <p>Opowiedz mi o swoim pomyśle.<br>Wykonuję projekty indywidualne i covery.</p>
+        <div class="social-buttons">
+            <a href="https://www.facebook.com/profile.php?id=100085016643893" target="_blank" class="btn-social fb">
+            <i data-lucide="facebook"></i> FACEBOOK
+            </a>
+            <a href="https://www.instagram.com/oliwa.tattoo/" target="_blank" class="btn-social insta">
+            <i data-lucide="instagram"></i> INSTAGRAM
+            </a>
+        </div>
+        <div class="footer-info">
+            <p><i data-lucide="map-pin"></i> Braniewo, ul. Sikorskiego</p>
+        </div>
+    </footer>
+
+    <script>lucide.createIcons();</script>
+</body>
+</html>
