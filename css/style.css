@@ -162,4 +162,10 @@ footer { padding-bottom: 28px; }
     .hero h1 { font-size: 2rem; }
     .gallery-grid { grid-template-columns: 1fr; } /* Jedna kolumna */
     .gallery-item img { filter: grayscale(0%); } /* Na telefonie kolor od razu */
+    .hero {
+        background-attachment: scroll; /* Wyłącz paralaksę, niech przewija się normalnie */
+        background-position: center;   /* Wyśrodkuj */
+        background-size: cover;        /* Dopasuj */
+        height: 100vh;                 /* Upewnij się, że ma wysokość */
+    }
 }
