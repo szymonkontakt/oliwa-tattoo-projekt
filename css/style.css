@@ -256,4 +256,11 @@ footer { padding-bottom: 28px; }
     .main-grid {
         grid-template-columns: 1fr; /* 1 kolumna na telefonie */
     }
+    .hero {
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url('../img/hero-bg.jpg');
+        background-attachment: scroll; 
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+    }
 }
